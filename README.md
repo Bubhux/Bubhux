@@ -1,11 +1,9 @@
 ### Hello ! I'm Python developer junior 👋
 
-Languages
+Languages   
 [![Minhas Habilidades](https://skillicons.dev/icons?i=,py,js,html,css)](https://skillicons.dev)
 
-Tools
-[![Minhas Habilidades](https://skillicons.dev/icons?i=django,bootstrap&theme=dark,github,postman)](https://skillicons.dev)
-
+Tools   
 [![Minhas Habilidades](https://skillicons.dev/icons?i=,django,bootstrap,github,postman)](https://skillicons.dev)
 
 | ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=nobr3c&theme=nord_dark) | ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nobr3c&hide=Html&theme=nord_dark) | ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nobr3c&theme=nord_dark) |
