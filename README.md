@@ -3,7 +3,7 @@
 #### Languages & tools
 <p align="left">
   <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=py,js,html,css,sass,django,bootstrap,vscode,github,postman" />
+      <img src="https://skillicons.dev/icons?i=py,js,html,css,sass,django,bootstrap,vscode,github,postman,linux" />
     </a>
 </p>
 
