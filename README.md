@@ -1,4 +1,4 @@
-## Hello ! I'm Bubhux Python developer junior
+## Hello ! I'm Python developer junior
 
 #### Languages & tools
 <p align="left">
