@@ -1,16 +1,9 @@
 ## Hello ! I'm Bubhux Python developer junior
 
-#### Languages   
+#### Languages & tools
 <p align="left">
   <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=py,js,html,css" />
-    </a>
-</p>
-
-#### Tools   
-<p align="left">
-  <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=django,bootstrap,github,postman" />
+      <img src="https://skillicons.dev/icons?i=py,js,html,css,django,bootstrap,github,postman" />
     </a>
 </p>
 
