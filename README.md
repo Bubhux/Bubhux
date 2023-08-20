@@ -1,15 +1,16 @@
 ## Hello ! I'm Python developer junior
 
-#### Languages & tools
+#### Languages   
 <p align="left">
   <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=py,js,html,css,sass,django,bootstrap,vscode,github,postman,linux" />
+      <img src="https://skillicons.dev/icons?i=py,js,html,css,sass" />
     </a>
 </p>
-#### tools
+
+#### Tools   
 <p align="left">
   <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=py,js,html,css,sass,django,bootstrap,docker,vscode,github,githubactions,gitlab,postman,heroku,linux" />
+      <img src="https://skillicons.dev/icons?i=django,bootstrap,docker,vscode,github,githubactions,gitlab,postman,heroku,linux" />
     </a>
 </p>
 
