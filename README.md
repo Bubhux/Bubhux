@@ -6,6 +6,12 @@
       <img src="https://skillicons.dev/icons?i=py,js,html,css,sass,django,bootstrap,vscode,github,postman,linux" />
     </a>
 </p>
+#### tools
+<p align="left">
+  <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=py,js,html,css,sass,django,bootstrap,docker,vscode,github,githubactions,gitlab,postman,heroku,linux" />
+    </a>
+</p>
 
 | ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Bubhux&theme=nord_dark) |
 | :-: |
