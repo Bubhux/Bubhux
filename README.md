@@ -10,7 +10,7 @@
 #### Tools   
 <p align="left">
   <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=django,bootstrap,flask,mysql,sqlite,mongodb,docker,vscode,github,githubactions,gitlab,heroku,sentry,postman,selenium,linux" />
+      <img src="https://skillicons.dev/icons?i=django,bootstrap,flask,mysql,sqlite,mongodb,docker,vscode,github,githubactions,gitlab,heroku,sentry,postman,selenium,nodejs,npm,linux" />
     </a>
 </p>
 
