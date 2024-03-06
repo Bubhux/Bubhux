@@ -14,6 +14,16 @@
     </a>
 </p>
 
+name: Repository introduction
+uses: lowlighter/metrics@latest
+with:
+  filename: metrics.plugin.introduction.repository.svg
+  token: ${{ secrets.METRICS_TOKEN }}
+  template: repository
+  repo: metrics
+  base: header
+  plugin_introduction: yes
+
 | ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Bubhux&theme=nord_dark) |
 | :-: |
 
