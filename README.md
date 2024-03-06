@@ -14,8 +14,8 @@
     </a>
 </p>
 
-| ![GitHub Metrics](metrics.plugin.achievements.svg) |
-| :-: |
+| ![GitHub Metrics](metrics.plugin.achievements.svg) | ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Bubhux&theme=transparent&show_icons=true) |
+| :-: | :-: |
 
 | ![GitHub Metrics](github-metrics.svg) | ![GitHub Metrics](metrics.plugin.isocalendar.fullyear.svg) |
 | :-: | :-: |
@@ -23,7 +23,7 @@
 | ![GitHub Metrics](metrics.plugin.languages.details.svg)  | ![GitHub Metrics](metrics.plugin.habits.charts.svg) |
 | :-: | :-: |
 
-| ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Bubhux&theme=nord_dark) |<img width="91%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Bubhux&show_icons=true&count_private=true&hide_border=true&title_color=4682B4&icon_color=4682B4&text_color=c9d1d9&bg_color=0d1117" alt="No_Bre_ github stats" />|
+| ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Bubhux&theme=transparent) | [![GitHub Streak](https://streak-stats.demolab.com?user=Bubhux&theme=transparent)](https://git.io/streak-stats) |
 | :-: | :-: |
 
 <!--
