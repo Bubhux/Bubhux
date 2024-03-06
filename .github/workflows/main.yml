@@ -29,7 +29,7 @@ jobs:
           plugin_starlists_only: Awesome
 
       - name: Fetch repository metrics
-        uses: lowlighter/metrics@latest
+        uses: Bubhux/metrics@latest
         with:
           template: repository
           user: lowlighter
