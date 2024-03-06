@@ -1,4 +1,5 @@
-name: Metrics
+name: Featured star list languages
+
 on:
   # Planifiez des mises à jour quotidiennes
   schedule: [{cron: "0 0 * * *"}]
@@ -6,6 +7,7 @@ on:
   workflow_dispatch:
   # (optionnel) Exécutez le flux de travail lors de la publication sur master/main
   push: {branches: ["master", "main"]}
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -14,18 +16,14 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Featured star list languages
+        uses: lowlighter/metrics@latest
         with:
+          filename: metrics.plugin.starlists.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
-
-name: Featured star list languages
-uses: lowlighter/metrics@latest
-with:
-  filename: metrics.plugin.starlists.languages.svg
-  token: NOT_NEEDED
-  base: ""
-  plugin_starlists: yes
-  plugin_starlists_languages: yes
-  plugin_starlists_limit_languages: 8
-  plugin_starlists_limit_repositories: 0
-  plugin_starlists_only: Awesome
+          base: ""
+          plugin_starlists: yes
+          plugin_starlists_languages: yes
+          plugin_starlists_limit_languages: 8
+          plugin_starlists_limit_repositories: 0
+          plugin_starlists_only: Awesome
