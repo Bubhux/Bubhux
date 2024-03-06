@@ -33,4 +33,4 @@ jobs:
         with:
           template: repository
           user: Bubhux
-          repo: metrics
+          repo: Bubhux
