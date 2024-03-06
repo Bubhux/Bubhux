@@ -1,4 +1,4 @@
-name: Metrics
+name: Full-year calendar
 
 on:
   # Planifiez des mises à jour quotidiennes
@@ -16,10 +16,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generate Metrics
+      - name: Full-year calendar
         uses: lowlighter/metrics@latest
         with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          commits_authoring: firstname lastname, username, username@users.noreply.github.com
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
