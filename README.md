@@ -23,7 +23,7 @@
 | ![GitHub Metrics](metrics.plugin.languages.details.svg)  | ![GitHub Metrics](metrics.plugin.habits.charts.svg) |
 | :-: | :-: |
 
-|  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Bubhux&theme=transparent&show_icons=true) | [![GitHub Streak](https://streak-stats.demolab.com?user=Bubhux&theme=transparent)](https://git.io/streak-stats) |
+| ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Bubhux&theme=transparent&show_icons=true) | [![GitHub Streak](https://streak-stats.demolab.com?user=Bubhux&theme=transparent)](https://git.io/streak-stats) |
 | :-: | :-: |
 
 <!--
