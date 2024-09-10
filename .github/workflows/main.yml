@@ -13,6 +13,7 @@ jobs:
       name: production
     permissions:
       contents: write
+      pages: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -112,11 +113,11 @@ jobs:
           git add .
           git commit -m "Update GitHub Snake and metrics" || echo "No changes to commit"
 
-      - name: Push changes to main branch
+      - name: Push changes to gh-pages branch
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          branch: gh-pages
           force: true
 
       - name: Deploy to GitHub Pages
