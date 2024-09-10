@@ -101,8 +101,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: List files in root directory
+        run: ls -la
+
       - name: List files in dist directory
         run: ls -la dist
+
+      - name: Print environment variables
+        run: printenv
 
       - name: Initialize Git
         run: |
