@@ -13,6 +13,7 @@ jobs:
       name: production
     permissions:
       contents: write
+      pages: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -109,6 +110,14 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+
+      - name: Fetch and Rebase gh-pages
+        run: |
+          git fetch origin gh-pages
+          git rebase origin/gh-pages
+
+      - name: Add and Commit Changes
+        run: |
           git add .
           git commit -m "Update GitHub Snake and metrics" || echo "No changes to commit"
 
@@ -117,3 +126,11 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
+
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: gh-pages
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
