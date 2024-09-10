@@ -8,6 +8,9 @@ on:
   # (optionnel) Exécutez le flux de travail lors de la publication sur master/main
   push: {branches: ["master", "main"]}
 
+permissions:
+  contents: write
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
