@@ -105,7 +105,7 @@ jobs:
     steps:
       # Vérifie le dépôt
       - uses: actions/checkout@v4
-
+  
       # Génère le serpent
       - uses: Platane/snk@master
         id: snake-gif
@@ -113,10 +113,13 @@ jobs:
           github_user_name: Bubhux
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
-
+  
       # Affiche l'état du dépôt
       - run: git status
-
+  
+      # Définir la variable d'environnement
+      - run: echo "snake-gif=dist/github-contribution-grid-snake.gif" >> $GITHUB_ENV
+  
       # Pousse les modifications
       - name: Pousser les modifications
         uses: ad-m/github-push-action@master
@@ -124,10 +127,10 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
           force: true
-
+  
       - uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: gh-pages
-          build_dir: public
+          target_branch: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
