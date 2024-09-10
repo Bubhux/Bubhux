@@ -101,7 +101,7 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: List files in dist directory
         run: ls -la dist
@@ -110,6 +110,12 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+
+      - name: Handle unstaged changes
+        run: |
+          git status
+          git add .
+          git commit -m "Temporary commit to handle unstaged changes" || echo "No changes to commit"
 
       - name: Fetch and Rebase gh-pages
         run: |
