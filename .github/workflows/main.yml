@@ -7,13 +7,12 @@ on:
     branches: ["main"]
 
 jobs:
-  github-metrics:
+  generate-metrics:
     runs-on: ubuntu-latest
     environment:
       name: production
     permissions:
       contents: write
-      pages: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -118,11 +117,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
-
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: gh-pages
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
