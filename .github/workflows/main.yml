@@ -102,35 +102,38 @@ jobs:
 # Job pour générer le serpent
   generate-snake:
     runs-on: ubuntu-latest
+
     steps:
       # Vérifie le dépôt
-      - uses: actions/checkout@v4
-  
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       # Génère le serpent
-      - uses: Platane/snk@master
+      - name: Generate snake gif
+        uses: Platane/snk@master
         id: snake-gif
         with:
           github_user_name: Bubhux
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
-  
-      # Affiche l'état du dépôt
-      - run: git status
-  
-      # Définir la variable d'environnement
-      - run: echo "snake-gif=dist/github-contribution-grid-snake.gif" >> $GITHUB_ENV
-  
-      # Pousse les modifications
-      - name: Pousser les modifications
+
+      # Définir la variable d'environnement pour le fichier serpent
+      - name: Set environment variable for snake gif
+        run: echo "snake-gif=dist/github-contribution-grid-snake.gif" >> $GITHUB_ENV
+
+      # Pousse les modifications vers le dépôt
+      - name: Push changes to repository
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
           force: true
-  
-      - uses: crazy-max/ghaction-github-pages@v4
+
+      # Déployer sur GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: output
+          target_branch: gh-pages
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
