@@ -4,7 +4,7 @@ on:
   schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
   push:
-    branches: ["master", "main"]
+    branches: ["main"]
 
 jobs:
   github-metrics:
@@ -112,11 +112,11 @@ jobs:
           git add .
           git commit -m "Update GitHub Snake and metrics" || echo "No changes to commit"
 
-      - name: Push changes to repository
+      - name: Push changes to main branch
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
+          branch: main
           force: true
 
       - name: Deploy to GitHub Pages
