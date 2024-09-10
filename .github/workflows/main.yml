@@ -1,17 +1,23 @@
 name: Metrics
 
 on:
-  schedule: [{cron: "0 0 * * *"}]
-  workflow_dispatch:
-  push: {branches: ["master", "main"]}
+  schedule:
+    - cron: "0 0 * * *"  # Déploie tous les jours à minuit UTC
+  workflow_dispatch:  # Permet le déclenchement manuel du workflow
+  push:
+    branches:
+      - master
+      - main  # Déclenche le workflow lorsqu'un push est effectué sur ces branches
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    environment: 
+    environment:
       name: production
     permissions:
       contents: write
+      pages: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
