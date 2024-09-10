@@ -1,15 +1,12 @@
 name: Metrics
 
 on:
-  # Planifiez des mises à jour quotidiennes
+  # Planifie des mises à jour quotidiennes
   schedule: [{cron: "0 0 * * *"}]
   # (optionnel) Exécutez le flux de travail manuellement
   workflow_dispatch:
-  # (optionnel) Exécutez le flux de travail lors de la publication sur master/main
+  # (optionnel) Exécute le flux de travail lors de la publication sur master/main
   push: {branches: ["master", "main"]}
-
-permissions:
-  contents: write
 
 jobs:
   github-metrics:
@@ -99,29 +96,16 @@ jobs:
           plugin_habits_charts: yes
           config_timezone: Europe/Paris
 
-# Job pour générer le serpent
-  generate-snake:
-    runs-on: ubuntu-latest
-
-    steps:
-      # Vérifie le dépôt
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      # Génère le serpent
-      - name: Generate snake gif
-        uses: Platane/snk@master
-        id: snake-gif
+      # Génère le serpent en mode clair, sombre, et un GIF personnalisé
+      - name: Generate GitHub Snake
+        uses: Platane/snk@v3
         with:
-          github_user_name: Bubhux
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      # Définir la variable d'environnement pour le fichier serpent
-      - name: Set environment variable for snake gif
-        run: echo "snake-gif=dist/github-contribution-grid-snake.gif" >> $GITHUB_ENV
-
-      # Pousse les modifications vers le dépôt
       - name: Push changes to repository
         uses: ad-m/github-push-action@master
         with:
@@ -129,7 +113,7 @@ jobs:
           branch: master
           force: true
 
-      # Déployer sur GitHub Pages
+      # Déployer sur GitHub Pages (si nécessaire)
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
