@@ -14,8 +14,6 @@
     </a>
 </p>
 
-![snake gif](https://github.com/Bubhux/Bubhux/blob/output/github-contribution-grid-snake.gif)
-
 | ![GitHub Metrics](metrics.plugin.achievements.svg) | ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Bubhux&theme=transparent) |
 | :-: | :-: |
 
@@ -27,6 +25,8 @@
 
 | ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Bubhux&theme=transparent&show_icons=true) | [![GitHub Streak](https://streak-stats.demolab.com?user=Bubhux&theme=transparent)](https://git.io/streak-stats) |
 | :-: | :-: |
+
+![snake gif](https://github.com/Bubhux/Bubhux/blob/output/github-contribution-grid-snake.gif)
 
 <!--
 **Bubhux/Bubhux** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
