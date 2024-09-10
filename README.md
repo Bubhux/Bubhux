@@ -14,6 +14,8 @@
     </a>
 </p>
 
+![snake gif](https://github.com/Bubhux/Bubhux/blob/output/github-contribution-grid-snake.gif)
+
 | ![GitHub Metrics](metrics.plugin.achievements.svg) | ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Bubhux&theme=transparent) |
 | :-: | :-: |
 
