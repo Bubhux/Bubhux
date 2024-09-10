@@ -1,11 +1,8 @@
 name: Metrics
 
 on:
-  # Planifie des mises à jour quotidiennes
   schedule: [{cron: "0 0 * * *"}]
-  # (optionnel) Exécutez le flux de travail manuellement
   workflow_dispatch:
-  # (optionnel) Exécute le flux de travail lors de la publication sur master/main
   push: {branches: ["master", "main"]}
 
 jobs:
@@ -16,6 +13,12 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create dist directory
+        run: mkdir -p dist
+
       - name: Collect GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
@@ -56,15 +59,6 @@ jobs:
           base: repositories
           plugin_traffic: yes
 
-      - name: Detailed display
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_only: sponsor, maintainer, octonaut
-
       - name: Most used (with details)
         uses: lowlighter/metrics@latest
         with:
@@ -96,7 +90,6 @@ jobs:
           plugin_habits_charts: yes
           config_timezone: Europe/Paris
 
-      # Génère le serpent en mode clair, sombre, et un GIF personnalisé
       - name: Generate GitHub Snake
         uses: Platane/snk@v3
         with:
@@ -106,6 +99,13 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
+      - name: Initialize Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Update GitHub Snake and metrics" || echo "No changes to commit"
+
       - name: Push changes to repository
         uses: ad-m/github-push-action@master
         with:
@@ -113,7 +113,6 @@ jobs:
           branch: master
           force: true
 
-      # Déployer sur GitHub Pages (si nécessaire)
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
