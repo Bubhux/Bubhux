@@ -15,10 +15,14 @@ jobs:
       - name: List files in dist directory
         run: ls -la dist
 
+      - name: Copy files from dist to root
+        run: |
+          cp -r dist/* .
+
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: gh-pages
-          build_dir: dist
+          build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
