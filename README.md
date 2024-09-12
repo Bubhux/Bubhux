@@ -14,6 +14,9 @@
     </a>
 </p>
 
+| ![GitHub Metrics](metrics.plugin.achievements.all.svg) | ![GitHub Metrics](metrics.plugin.languages.indepth.svg) |
+| :-: | :-: |
+
 | ![GitHub Metrics](metrics.plugin.achievements.svg) | ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Bubhux&theme=transparent) |
 | :-: | :-: |
 
