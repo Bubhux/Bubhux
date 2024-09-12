@@ -21,7 +21,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
         with:
-          USERNAME: ${{ github.repository_owner }} # Remplacez par votre nom d'utilisateur GitHub
+          USERNAME: Bubhux
           BRANCH_NAME: "main" # Nom de la branche où les cartes seront poussées
           UTC_OFFSET: 2 # Offset UTC en heures, ajustez si nécessaire
           EXCLUDE: "" # Liste des langages à exclure, vide par défaut
