@@ -27,11 +27,10 @@ jobs:
       - name: Create dist directory
         run: mkdir -p dist
 
-      - name: Collect GitHub Metrics with debugging
+      - name: Collect GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          config_debug: yes
 
       - name: Organization introduction
         uses: lowlighter/metrics@latest
