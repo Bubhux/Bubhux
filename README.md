@@ -26,14 +26,12 @@
 | ![GitHub Profile Summary Cards](profile-summary-card-output/transparent/0-profile-details.svg) | ![GitHub Profile Summary Cards](profile-summary-card-output/transparent/4-productive-time.svg) |
 | :-: | :-: |
 
-| ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Bubhux&theme=transparent&show_icons=true) | [![GitHub Streak](https://streak-stats.demolab.com?user=Bubhux&theme=transparent)](https://git.io/streak-stats) |
+| ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Bubhux&theme=transparent&show_icons=true) | [![GitHub Streak](https://streak-stats.demolab.com?user=Bubhux&theme=transparent)](https://git.io/streak-stats) |
 | :-: | :-: |
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
-  <img alt="github-snake" src="dist/github-snake.svg" />
-</picture>
+| ![GitHub Snake Dark](dist/github-snake-dark.svg) |
+| :-: |
+
 
 <!--
 **Bubhux/Bubhux** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
