@@ -101,15 +101,5 @@ jobs:
       - name: List files before commit
         run: ls -la
 
-      - name: List files after generation
-        run: ls -la
-
-      - name: Push changes to main branch
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          force: true
-
-      - name: List files after deploy
+      - name: List files after metrics collection
         run: ls -la
