@@ -17,9 +17,6 @@
 | ![GitHub Profile Summary Cards](profile-summary-card-output/profile-details.svg) |
 | :-: |
 
-| ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Bubhux&theme=transparent&show_icons=true) | [![GitHub Streak](https://streak-stats.demolab.com?user=Bubhux&theme=transparent)](https://git.io/streak-stats) |
-| :-: | :-: |
-
 | ![GitHub Metrics](metrics.plugin.achievements.all.svg) | ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Bubhux&theme=transparent) |
 | :-: | :-: |
 
