@@ -1,9 +1,9 @@
 name: Generate GitHub Profile Summary Cards
 
 on:
-  schedule: # Exécute toutes les 24 heures
-    - cron: "0 0 * * *"
-  workflow_dispatch: # Permet de déclencher le workflow manuellement
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
+  push: {branches: ["main"]}
 
 jobs:
   build:
@@ -22,7 +22,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
         with:
           USERNAME: Bubhux
-          BRANCH_NAME: "main" # Nom de la branche où les cartes seront poussées
-          UTC_OFFSET: 2 # Offset UTC en heures, ajustez si nécessaire
-          EXCLUDE: "" # Liste des langages à exclure, vide par défaut
-          AUTO_PUSH: true # Détermine si les fichiers générés doivent être automatiquement poussés vers la branche désirée
+          BRANCH_NAME: "main"
+          UTC_OFFSET: 2
+          EXCLUDE: ""
+          AUTO_PUSH: true
