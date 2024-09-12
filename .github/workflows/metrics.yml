@@ -121,6 +121,7 @@ jobs:
       - name: Display Git configuration
         run: |
           git remote -v
+          git config --list
           git status
 
       - name: Generate GitHub Profile Summary Cards
@@ -133,11 +134,21 @@ jobs:
           AUTO_PUSH: true
           UTC_OFFSET: 2
 
+      - name: List files before commit
+        run: ls -la
+
+      - name: Display Git status
+        run: git status
+
+      - name: Add and commit changes
+        run: |
+          git add .
+          git commit -m "Committing changes"
+          git log -1
+
       - name: Test Git Push
         run: |
           echo "Testing Git Push"
-          git add .
-          git commit -m "Test commit"
           git push
 
       - name: List files after summary cards generation
