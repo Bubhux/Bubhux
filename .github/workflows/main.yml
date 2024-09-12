@@ -1,11 +1,8 @@
 name: Metrics
 
 on:
-  # Planifiez des mises à jour quotidiennes
   schedule: [{cron: "0 0 * * *"}]
-  # (optionnel) Exécutez le flux de travail manuellement
   workflow_dispatch:
-  # (optionnel) Exécutez le flux de travail lors de la publication sur master/main
   push: {branches: ["master", "main"]}
 
 jobs:
@@ -28,12 +25,12 @@ jobs:
         run: mkdir -p dist
 
       - name: Collect GitHub Metrics
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Organization introduction
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: metrics.plugin.introduction.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -42,7 +39,7 @@ jobs:
           plugin_introduction: yes
 
       - name: Full-year calendar
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: metrics.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -51,18 +48,17 @@ jobs:
           plugin_isocalendar_duration: full-year
 
       - name: All achievements compact display
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: metrics.plugin.achievements.all.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: Bubhux
           base: ""
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: C
 
       - name: Repositories traffic
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: metrics.plugin.traffic.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -70,11 +66,10 @@ jobs:
           plugin_traffic: yes
 
       - name: Indepth analysis
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: metrics.plugin.languages.indepth.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: Bubhux
           base: ""
           plugin_languages: yes
           plugin_languages_ignored: >-
@@ -84,7 +79,7 @@ jobs:
           plugin_languages_limit: 0
 
       - name: Using graph charts
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: metrics.plugin.stargazers.graph.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -93,7 +88,7 @@ jobs:
           plugin_stargazers_charts_type: graph
 
       - name: Recent activity charts
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: metrics.plugin.habits.charts.svg
           token: ${{ secrets.METRICS_TOKEN }}
