@@ -17,13 +17,15 @@
 | ![GitHub Metrics](metrics.plugin.achievements.all.svg) |
 | :-: |
 
-| ![GitHub Profile Summary Cards](profile-summary-card-output/transparent/0-profile-details.svg) | ![GitHub Profile Summary Cards](profile-summary-card-output/transparent/4-productive-time.svg). |
-| :-: | :-: |
+
 
 | ![GitHub Metrics](github-metrics.svg) | ![GitHub Metrics](metrics.plugin.isocalendar.fullyear.svg) |
 | :-: | :-: |
 
 | ![GitHub Metrics](metrics.plugin.languages.indepth.svg)  | ![GitHub Metrics](metrics.plugin.habits.charts.svg) |
+| :-: | :-: |
+
+| ![GitHub Profile Summary Cards](profile-summary-card-output/transparent/0-profile-details.svg) | ![GitHub Profile Summary Cards](profile-summary-card-output/transparent/4-productive-time.svg). |
 | :-: | :-: |
 
 | ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Bubhux&theme=transparent&show_icons=true) | [![GitHub Streak](https://streak-stats.demolab.com?user=Bubhux&theme=transparent)](https://git.io/streak-stats) |
