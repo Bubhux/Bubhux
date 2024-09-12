@@ -15,6 +15,11 @@ jobs:
       name: production
     permissions:
       contents: write
+      actions: read
+      issues: read
+      pull-requests: read
+      repository-projects: read
+      packages: read
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,10 +27,11 @@ jobs:
       - name: Create dist directory
         run: mkdir -p dist
 
-      - name: Collect GitHub Metrics
+      - name: Collect GitHub Metrics with debugging
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          config_debug: yes
 
       - name: Organization introduction
         uses: lowlighter/metrics@latest
@@ -50,6 +56,7 @@ jobs:
         with:
           filename: metrics.plugin.achievements.all.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: Bubhux
           base: ""
           plugin_achievements: yes
           plugin_achievements_display: compact
@@ -68,6 +75,7 @@ jobs:
         with:
           filename: metrics.plugin.languages.indepth.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: Bubhux
           base: ""
           plugin_languages: yes
           plugin_languages_ignored: >-
