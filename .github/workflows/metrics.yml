@@ -105,19 +105,28 @@ jobs:
         run: ls -la
 
   profile-summary-cards:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v4
-  
-        - name: Generate GitHub Profile Summary Cards
-          uses: vn7n24fzkq/github-profile-summary-cards@release
-          env:
-            GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
-          with:
-            USERNAME: ${{ github.repository_owner }}
-            BRANCH_NAME: "main"
-            AUTO_PUSH: true
-            UTC_OFFSET: 2
-  
-        - name: List files after summary cards generation
-          run: ls -la profile-summary-card-output
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Set up Git credentials
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.SUMMARY_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: Generate GitHub Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          AUTO_PUSH: true
+          UTC_OFFSET: 2
+
+      - name: List files after summary cards generation
+        run: ls -la profile-summary-card-output
