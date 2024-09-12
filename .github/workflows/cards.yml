@@ -1,0 +1,28 @@
+name: Generate GitHub Profile Summary Cards
+
+on:
+  schedule: # Exécute toutes les 24 heures
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Permet de déclencher le workflow manuellement
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate GitHub Profile Summary Cards
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }} # Remplacez par votre nom d'utilisateur GitHub
+          BRANCH_NAME: "main" # Nom de la branche où les cartes seront poussées
+          UTC_OFFSET: 2 # Offset UTC en heures, ajustez si nécessaire
+          EXCLUDE: "" # Liste des langages à exclure, vide par défaut
+          AUTO_PUSH: true # Détermine si les fichiers générés doivent être automatiquement poussés vers la branche désirée
