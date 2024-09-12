@@ -33,13 +33,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: List files after generation
-        run: ls -la
+        run: ls -la dist
 
       - name: Initialize Git
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add .
+          git add dist/*
           git status
           git commit -m "Update metrics and GitHub Snake" || echo "No changes to commit"
 
