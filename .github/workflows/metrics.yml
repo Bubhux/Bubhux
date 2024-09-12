@@ -118,6 +118,11 @@ jobs:
         run: |
           git remote set-url origin https://x-access-token:${{ secrets.SUMMARY_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
+      - name: Display Git configuration
+        run: |
+          git remote -v
+          git status
+
       - name: Generate GitHub Profile Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
@@ -127,6 +132,13 @@ jobs:
           BRANCH_NAME: "main"
           AUTO_PUSH: true
           UTC_OFFSET: 2
+
+      - name: Test Git Push
+        run: |
+          echo "Testing Git Push"
+          git add .
+          git commit -m "Test commit"
+          git push
 
       - name: List files after summary cards generation
         run: ls -la profile-summary-card-output
