@@ -11,17 +11,23 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    environment: 
+    environment:
       name: production
     permissions:
       contents: write
     steps:
-      - name: "Collect GitHub Metrics"
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create dist directory
+        run: mkdir -p dist
+
+      - name: Collect GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-      - name: "Organization introduction"
+      - name: Organization introduction
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.introduction.svg
@@ -30,7 +36,7 @@ jobs:
           base: header
           plugin_introduction: yes
 
-      - name: "Full-year calendar"
+      - name: Full-year calendar
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.isocalendar.fullyear.svg
@@ -39,16 +45,17 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-      - name: "Detailed display"
+      - name: All achievements compact display
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.achievements.svg
+          filename: metrics.plugin.achievements.all.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
-          plugin_achievements_only: sponsor, maintainer, octonaut
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
 
-      - name: "Repositories traffic"
+      - name: Repositories traffic
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.traffic.svg
@@ -56,27 +63,20 @@ jobs:
           base: repositories
           plugin_traffic: yes
 
-      - name: "Detailed display"
+      - name: Indepth analysis
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_only: sponsor, maintainer, octonaut
-
-      - name: "Most used (with details)"
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.languages.details.svg
+          filename: metrics.plugin.languages.indepth.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_languages: yes
-          plugin_languages_ignored: "tex, less, qmake, lex, cmake, gnuplot"
-          plugin_languages_details: "bytes-size, percentage"
-          plugin_languages_limit: 4
+          plugin_languages_ignored: >-
+              tex, less, makefile, qmake, lex, cmake, gnuplot
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines, bytes-size
+          plugin_languages_limit: 0
 
-      - name: "Using graph charts"
+      - name: Using graph charts
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.stargazers.graph.svg
@@ -85,7 +85,7 @@ jobs:
           plugin_stargazers: yes
           plugin_stargazers_charts_type: graph
 
-      - name: "Recent activity charts"
+      - name: Recent activity charts
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.habits.charts.svg
@@ -95,3 +95,39 @@ jobs:
           plugin_habits_facts: no
           plugin_habits_charts: yes
           config_timezone: Europe/Paris
+
+      - name: Generate GitHub Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: List files in dist directory
+        run: ls -la dist
+
+      - name: Initialize Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Update GitHub Snake and metrics" || echo "No changes to commit"
+
+      - name: Push changes to main branch
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          force: true
+
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: gh-pages
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
