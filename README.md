@@ -14,10 +14,10 @@
     </a>
 </p>
 
-| ![GitHub Profile Summary Cards](profile-summary-card-output/profile-details.svg) |
+| ![GitHub Metrics](metrics.plugin.achievements.all.svg) |
 | :-: |
 
-| ![GitHub Metrics](metrics.plugin.achievements.all.svg) | ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Bubhux&theme=transparent) |
+| ![GitHub Profile Summary Cards](profile-summary-card-output/transparent/0-profile-details.svg) | ![GitHub Profile Summary Cards](profile-summary-card-output/transparent/4-productive-time.svg). |
 | :-: | :-: |
 
 | ![GitHub Metrics](github-metrics.svg) | ![GitHub Metrics](metrics.plugin.isocalendar.fullyear.svg) |
