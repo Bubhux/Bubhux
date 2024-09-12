@@ -14,8 +14,8 @@
     </a>
 </p>
 
-| ![GitHub Metrics](metrics.plugin.achievements.all.svg) | ![GitHub Metrics](metrics.plugin.starlists.svg) |
-| :-: | :-: |
+| ![GitHub Metrics](metrics.plugin.achievements.all.svg) |
+| :-: |
 
 | ![GitHub Metrics](github-metrics.svg) | ![GitHub Metrics](metrics.plugin.isocalendar.fullyear.svg) |
 | :-: | :-: |
