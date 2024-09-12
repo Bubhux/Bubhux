@@ -20,7 +20,7 @@
 | ![GitHub Metrics](github-metrics.svg) | ![GitHub Metrics](metrics.plugin.isocalendar.fullyear.svg) |
 | :-: | :-: |
 
-| ![GitHub Metrics](metrics.plugin.languages.indepth.svg)  | ![GitHub Metrics](metrics.plugin.habits.charts.svg) |
+| ![GitHub Metrics](metrics.plugin.languages.indepth.svg) | ![GitHub Metrics](metrics.plugin.habits.charts.svg) |
 | :-: | :-: |
 
 | ![GitHub Profile Summary Cards](profile-summary-card-output/transparent/0-profile-details.svg) | ![GitHub Profile Summary Cards](profile-summary-card-output/transparent/4-productive-time.svg) |
