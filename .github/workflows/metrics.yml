@@ -103,3 +103,21 @@ jobs:
 
       - name: List files after metrics collection
         run: ls -la
+
+  profile-summary-cards:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v4
+  
+        - name: Generate GitHub Profile Summary Cards
+          uses: vn7n24fzkq/github-profile-summary-cards@release
+          env:
+            GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+          with:
+            USERNAME: ${{ github.repository_owner }}
+            BRANCH_NAME: "main"
+            AUTO_PUSH: true
+            UTC_OFFSET: 2
+  
+        - name: List files after summary cards generation
+          run: ls -la profile-summary-card-output
