@@ -98,16 +98,6 @@ jobs:
           plugin_habits_charts: yes
           config_timezone: Europe/Paris
 
-      - name: Generate GitHub Profile Summary Cards
-        uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          BRANCH_NAME: "main"
-          UTC_OFFSET: 2
-          AUTO_PUSH: true
-
       - name: List files before commit
         run: ls -la
 
