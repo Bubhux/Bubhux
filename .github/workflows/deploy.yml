@@ -12,7 +12,8 @@ jobs:
       name: production
     permissions:
       contents: write
-      workflows: write
+      id-token: write
+      actions: read
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
