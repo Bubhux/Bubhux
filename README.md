@@ -1,4 +1,8 @@
-## Hello ! I'm Python developer junior
+## Hello ! I'm developer full-stack junior
+
+#### Check out my portfolio !
+
+- **Portfolio** ➔ 💼 [Discover my portfolio, click here !](https://portfolio-8ym.pages.dev/)
 
 #### Languages   
 <p align="left">
@@ -10,7 +14,7 @@
 #### Tools   
 <p align="left">
   <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=django,bootstrap,react,flask,mysql,sqlite,mongodb,docker,vscode,github,githubactions,gitlab,heroku,sentry,postman,selenium,nodejs,npm,linux" />
+      <img src="https://skillicons.dev/icons?i=django,react,vite,flask,bootstrap,tailwind,threejs,mysql,sqlite,mongodb,docker,vscode,github,githubactions,gitlab,heroku,cloudflare,sentry,postman,selenium,nodejs,npm,linux" />
     </a>
 </p>
 
@@ -31,7 +35,6 @@
 
 | ![GitHub Snake Dark](dist/github-snake-dark.svg) |
 | :-: |
-
 
 <!--
 **Bubhux/Bubhux** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
