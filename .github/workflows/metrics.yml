@@ -38,6 +38,16 @@ jobs:
           base: header
           plugin_introduction: yes
 
+      - name: All achievements compact display
+        uses: stalomeow/metrics@projects-v2
+        with:
+          filename: metrics.plugin.achievements.all.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
+
       - name: All achievements detailed display
         uses: stalomeow/metrics@projects-v2
         with:
