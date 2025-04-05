@@ -39,7 +39,7 @@ jobs:
           plugin_introduction: yes
 
       - name: All achievements detailed display
-        uses: lowlighter/metrics@latest
+        uses: stalomeow/metrics@projects-v2
         with:
           filename: metrics.plugin.achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -47,7 +47,7 @@ jobs:
           plugin_achievements: yes
 
       - name: LeetCode
-        uses: lowlighter/metrics@latest
+        uses: stalomeow/metrics@projects-v2
         with:
           filename: metrics.plugin.leetcode.svg
           token: NOT_NEEDED
