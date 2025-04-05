@@ -38,15 +38,32 @@ jobs:
           base: header
           plugin_introduction: yes
 
-      - name: All achievements compact display
+      - name: All achievements detailed display
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.achievements.all.svg
+          filename: metrics.plugin.achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
+
+      - name: LeetCode
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.leetcode.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_leetcode: yes
+          plugin_leetcode_sections: solved, skills, recent
+
+      - name: Python or JavaScript snippet of the day
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.code.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_code: yes
+          plugin_code_languages: python, javascript
+          plugin_code_load: 400
 
       - name: Indepth analysis
         uses: lowlighter/metrics@latest
