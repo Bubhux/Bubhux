@@ -53,6 +53,7 @@ jobs:
           token: NOT_NEEDED
           base: ""
           plugin_leetcode: yes
+          plugin_leetcode_user: "bubhux"
           plugin_leetcode_sections: solved, skills, recent
 
       - name: Python or JavaScript snippet of the day
