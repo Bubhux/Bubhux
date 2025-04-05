@@ -1,4 +1,4 @@
-## Hello ! I'm developer full-stack junior
+## Hello ! I'm developer back-end junior
 
 #### Check out my portfolio !
 
