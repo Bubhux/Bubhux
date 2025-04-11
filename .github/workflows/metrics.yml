@@ -73,10 +73,11 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_code: yes
+          plugin_code_visibility: public
           plugin_code_languages: python, javascript
-          plugin_code_lines: 10
-          plugin_code_load: 300
-          plugin_code_days: 375
+          plugin_code_lines: 128
+          plugin_code_load: 400
+          plugin_code_days: 1000
 
       - name: Indepth analysis
         uses: lowlighter/metrics@latest
