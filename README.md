@@ -18,8 +18,8 @@
     </a>
 </p>
 
-| ![GitHub Metrics](metrics.plugin.achievements.svg) | ![GitHub Metrics](metrics.plugin.code.svg) |
-| :-: | :-: |
+| ![GitHub Metrics](metrics.plugin.achievements.svg) |
+| :-: |
 
 | ![GitHub Metrics](github-metrics.svg) | ![GitHub Metrics](metrics.plugin.isocalendar.fullyear.svg) |
 | :-: | :-: |
