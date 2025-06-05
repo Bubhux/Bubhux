@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="293" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1198" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.deleted{color:#da3633}.people{padding:0 10px}.snippet .body{padding-left:12px}.snippet .language-diff{font-size:77%}.snippet.additions{color:#336543}.snippet.deletions{color:#9a5256}.snippet .token.prefix.unchanged{visibility:hidden}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}span.code{margin:0 4px -3px}.token.coord{color:#d2a8ff;font-weight:700}.token.deleted:not(.prefix){color:#eed2d0dc;background-color:#9a5256dc}.space{margin-left:7px}.blue{color:#58a6ff}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.deleted{color:#da3633}.snippet .body{padding-left:12px}.snippet .language-diff{font-size:77%}.snippet.additions{color:#336543}.snippet.deletions{color:#9a5256}.snippet .token.prefix.unchanged{visibility:hidden}.markdown a{color:#58a6ff;text-decoration:none}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}span.code{margin:0 4px -3px}.token.coord{color:#d2a8ff;font-weight:700}.token.inserted:not(.prefix){color:#aad0b4dc;background-color:#336543dc}.token.deleted:not(.prefix){color:#eed2d0dc;background-color:#9a5256dc}.space{margin-left:7px}.blue{color:#58a6ff}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -20,7 +20,7 @@
                                 <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
                             </svg>
                             From
-                            <span class="blue space">Bubhux/GenealogieApp</span>
+                            <span class="blue space">Bubhux/3d-globe</span>
                         </div>
                     </section>
                     <section class="largeable-column-fields">
@@ -28,7 +28,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 21 May 2025, 23:58:53
+                            On 6 May 2025, 09:59:07
                         </div>
                     </section>
                 </div>
@@ -38,91 +38,38 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            Mise à jour V.1.1
+                            Mise à jour V.5.4
 
-Insertion des données avec le fichier data.sql
-Création de la vue dashboard.blade.php
-Création de la vue index.blade.php
-Création du controller PersonController.php
-Création du controller ProfileController.php
-Ajout du système d'authentification Laravel Breeze
- On branch development
+Amélioration des performances des markerLabel qui causaient des ralentissements sur l'ensemble de l'application.
+Ajout dans le panneau de contrôle des éléments lines et lineDots.
+Correction du problème lié à l'élément map qui ne couvrait pas tout le globe.
+Ajout de la texture clouds shaders.clouds.vertexShader et shaders.clouds.fragmentShader
+Amélioration des performances de chargement du globe.
+
  Changes to be committed:
-	modified:   README.md
-	new file:   app/Http/Controllers/Auth/AuthenticatedSessionController.php
-	new file:   app/Http/Controllers/Auth/ConfirmablePasswordController.php
-	new file:   app/Http/Controllers/Auth/EmailVerificationNotificationController.php
-	new file:   app/Http/Controllers/Auth/EmailVerificationPromptController.php
-	new file:   app/Http/Controllers/Auth/NewPasswordController.php
-	new file:   app/Http/Controllers/Auth/PasswordController.php
-	new file:   app/Http/Controllers/Auth/PasswordResetLinkController.php
-	new file:   app/Http/Controllers/Auth/RegisteredUserController.php
-	new file:   app/Http/Controllers/Auth/VerifyEmailController.php
-	new file:   app/Http/Controllers/PersonController.php
-	new file:   app/Http/Controllers/ProfileController.php
-	new file:   app/Http/Requests/Auth/LoginRequest.php
-	new file:   app/Http/Requests/ProfileUpdateRequest.php
-	new file:   app/View/Components/AppLayout.php
-	new file:   app/View/Components/GuestLayout.php
-	modified:   composer.json
-	modified:   composer.lock
-	deleted:    database/import/data.sql
-	new file:   package-lock.json
-	modified:   package.json
-	new file:   postcss.config.js
-	modified:   resources/css/app.css
-	modified:   resources/js/app.js
-	new file:   resources/views/auth/confirm-password.blade.php
-	new file:   resources/views/auth/forgot-password.blade.php
-	new file:   resources/views/auth/login.blade.php
-	new file:   resources/views/auth/register.blade.php
-	new file:   resources/views/auth/reset-password.blade.php
-	new file:   resources/views/auth/verify-email.blade.php
-	new file:   resources/views/components/application-logo.blade.php
-	new file:   resources/views/components/auth-session-status.blade.php
-	new file:   resources/views/components/danger-button.blade.php
-	new file:   resources/views/components/dropdown-link.blade.php
-	new file:   resources/views/components/dropdown.blade.php
-	new file:   resources/views/components/input-error.blade.php
-	new file:   resources/views/components/input-label.blade.php
-	new file:   resources/views/components/modal.blade.php
-	new file:   resources/views/components/nav-link.blade.php
-	new file:   resources/views/components/primary-button.blade.php
-	new file:   resources/views/components/responsive-nav-link.blade.php
-	new file:   resources/views/components/secondary-button.blade.php
-	new file:   resources/views/components/text-input.blade.php
-	new file:   resources/views/dashboard.blade.php
-	new file:   resources/views/layouts/app.blade.php
-	new file:   resources/views/layouts/guest.blade.php
-	new file:   resources/views/layouts/navigation.blade.php
-	new file:   resources/views/people/index.blade.php
-	new file:   resources/views/profile/edit.blade.php
-	new file:   resources/views/profile/partials/delete-user-form.blade.php
-	new file:   resources/views/profile/partials/update-password-form.blade.php
-	new file:   resources/views/profile/partials/update-profile-information-form.blade.php
-	new file:   routes/auth.php
-	modified:   routes/web.php
-	new file:   tailwind.config.js
-	new file:   tests/Feature/Auth/AuthenticationTest.php
-	new file:   tests/Feature/Auth/EmailVerificationTest.php
-	new file:   tests/Feature/Auth/PasswordConfirmationTest.php
-	new file:   tests/Feature/Auth/PasswordResetTest.php
-	new file:   tests/Feature/Auth/PasswordUpdateTest.php
-	new file:   tests/Feature/Auth/RegistrationTest.php
-	modified:   tests/Feature/ExampleTest.php
-	new file:   tests/Feature/ProfileTest.php
-	new file:   tests/Pest.php
-	modified:   tests/Unit/ExampleTest.php
-	modified:   vite.config.js
+	modified:   app/components/globe/globe.jsx
+	modified:   app/components/globe/main.jsx
+	modified:   app/components/globe/marker.jsx
+	new file:   app/components/globe/textures/earth_atmos.jpg
+	new file:   app/components/globe/textures/earth_bump_roughness_clouds.jpg
+	new file:   app/components/globe/textures/earth_clouds.png
+	new file:   app/components/globe/textures/earth_day_2.jpg
+	new file:   app/components/globe/textures/earth_lights.png
+	new file:   app/components/globe/textures/earth_night_2.jpg
+	new file:   app/components/globe/textures/earth_normal.jpg
+	new file:   app/components/globe/textures/earth_specular.jpg
+	modified:   app/components/globe/utils/config.js
+	modified:   app/components/globe/utils/shaders.js
+	modified:   static/img/screen_globe.png
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">1f8ddad6</span>
-                            <span class="code">vite.config.js</span>
+                            <span class="code">b75ee249</span>
+                            <span class="code">app/components/globe/utils/shaders.js</span>
                             <span class="code">
-                                <span class="snippet additions">++0</span>
+                                <span class="snippet additions">++55</span>
                                 <span class="snippet deletions">--2</span>
                             </span>
                         </div>
@@ -131,7 +78,7 @@ Ajout du système d'authentification Laravel Breeze
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,13 +1,11 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">import { defineConfig } from 'vite';<br /></span><span class="token prefix unchanged">·</span><span class="token line">import laravel from 'laravel-vite-plugin';<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">import tailwindcss from '@tailwindcss/vite';<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">export default defineConfig({<br /></span><span class="token prefix unchanged">·</span><span class="token line">  plugins: [<br /></span><span class="token prefix unchanged">·</span><span class="token line">      laravel({<br /></span><span class="token prefix unchanged">·</span><span class="token line">          input: ['resources/css/app.css', 'resources/js/app.js'],<br /></span><span class="token prefix unchanged">·</span><span class="token line">          refresh: true,<br /></span><span class="token prefix unchanged">·</span><span class="token line">      }),<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">      tailwindcss(),<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">  ],<br /></span><span class="token prefix unchanged">·</span><span class="token line">});</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -3,7 +3,8 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">export const shaders = {<br /></span><span class="token prefix unchanged">·</span><span class="token line">atmosphere: {},<br /></span><span class="token prefix unchanged">·</span><span class="token line">globe: {},<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">dot: {}<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">dot: {},<br /></span><span class="token prefix inserted">+</span><span class="token line">clouds: {}<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">}<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">// Shader de sommet pour le globe<br /></span></span>@@ -57,7 +58,7 @@ shaders.globe.fragmentShader = `<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">	float pulse = 0.1 * sin(time * 3.0) + 0.1; // Pulsation légère<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">	// Appliquer le mouvement au halo<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">	gl_FragColor = vec4(haloColor * alpha * gasMovement * pulse, alpha);<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">	gl_FragColor = vec4(haloColor * alpha * pulse, alpha);<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">}<br /></span><span class="token prefix unchanged">·</span><span class="token line">`<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span>@@ -152,3 +153,55 @@ shaders.dot.fragmentShader = `<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">	if ( gl_FragColor.a &lt; ALPHATEST ) discard;<br /></span><span class="token prefix unchanged">·</span><span class="token line">}<br /></span><span class="token prefix unchanged">·</span><span class="token line">`<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">// Shader de sommet pour les nuages (clouds) sur le globe<br /></span><span class="token prefix inserted">+</span><span class="token line">shaders.clouds.vertexShader = `<br /></span><span class="token prefix inserted">+</span><span class="token line">varying vec2 vUv;<br /></span><span class="token prefix inserted">+</span><span class="token line">uniform float time;<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">void main() {<br /></span><span class="token prefix inserted">+</span><span class="token line">	// Récupérer la position du vertex dans l'espace du modèle<br /></span><span class="token prefix inserted">+</span><span class="token line">	vec4 modelPosition = modelMatrix * vec4(position, 1.0);<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">	// Animation des nuages : Appliquer un mouvement de rotation autour du globe<br /></span><span class="token prefix inserted">+</span><span class="token line">	float angle = time * 0.02; // Vitesse de rotation<br /></span><span class="token prefix inserted">+</span><span class="token line">	mat4 rotationMatrix = mat4(<br /></span><span class="token prefix inserted">+</span><span class="token line">		vec4(cos(angle), 0.0, sin(angle), 0.0),<br /></span><span class="token prefix inserted">+</span><span class="token line">		vec4(0.0, 1.0, 0.0, 0.0),<br /></span><span class="token prefix inserted">+</span><span class="token line">		vec4(-sin(angle), 0.0, cos(angle), 0.0),<br /></span><span class="token prefix inserted">+</span><span class="token line">		vec4(0.0, 0.0, 0.0, 1.0)<br /></span><span class="token prefix inserted">+</span><span class="token line">	);<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">	// Appliquer la rotation sur la position<br /></span><span class="token prefix inserted">+</span><span class="token line">	modelPosition = rotationMatrix * modelPosition;<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">	// Passer les coordonnées UV au fragment shader<br /></span><span class="token prefix inserted">+</span><span class="token line">	vUv = uv;<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">	// Calculer la position finale en espace du monde<br /></span><span class="token prefix inserted">+</span><span class="token line">	vec4 worldPosition = modelMatrix * vec4(position, 1.0);<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">	// Calculer la position finale dans l'espace de la caméra<br /></span><span class="token prefix inserted">+</span><span class="token line">	vec4 viewPosition = viewMatrix * worldPosition;<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">	// Finalement, appliquer la projection pour obtenir les coordonnées écran<br /></span><span class="token prefix inserted">+</span><span class="token line">	gl_Position = projectionMatrix * viewPosition;<br /></span><span class="token prefix inserted">+</span><span class="token line">}<br /></span><span class="token prefix inserted">+</span><span class="token line">`<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">// Shader de fragment pour les nuages (clouds) sur le globe<br /></span><span class="token prefix inserted">+</span><span class="token line">shaders.clouds.fragmentShader = `<br /></span><span class="token prefix inserted">+</span><span class="token line">uniform sampler2D cloudTexture;<br /></span><span class="token prefix inserted">+</span><span class="token line">varying vec2 vUv;<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">void main() {<br /></span><span class="token prefix inserted">+</span><span class="token line">	// Appliquer un mouvement aux nuages en décalant les coordonnées UV<br /></span><span class="token prefix inserted">+</span><span class="token line">	vec2 uvOffset = vUv + vec2(0.1 * sin(vUv.y * 10.0), 0.1 * cos(vUv.x * 10.0)); // Mouvement sinusoïdal<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">	// Appliquer la texture des nuages<br /></span><span class="token prefix inserted">+</span><span class="token line">	vec4 cloudColor = texture2D(cloudTexture, uvOffset);<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">	// Contrôler l'opacité des nuages<br /></span><span class="token prefix inserted">+</span><span class="token line">	gl_FragColor = vec4(cloudColor.rgb, cloudColor.a * 0.1); // Faible opacité pour les nuages<br /></span><span class="token prefix inserted">+</span><span class="token line">}<br /></span><span class="token prefix inserted">+</span><span class="token line">`<br /></span></span>\No newline at end of file</code>
                         </div>
                     </section>
                 </div>
