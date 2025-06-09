@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1931" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="213" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.deleted{color:#da3633}.snippet .body{padding-left:12px}.snippet .language-diff{font-size:77%}.snippet.additions{color:#336543}.snippet.deletions{color:#9a5256}.snippet .token.prefix.unchanged{visibility:hidden}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}span.code{margin:0 4px -3px}.token.property{color:#48428a}.token.coord{color:#d2a8ff;font-weight:700}.token.inserted:not(.prefix){color:#aad0b4dc;background-color:#336543dc}.token.deleted:not(.prefix){color:#eed2d0dc;background-color:#9a5256dc}.space{margin-left:7px}.blue{color:#58a6ff}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.deleted{color:#da3633}.people{padding:0 10px}.snippet .body{padding-left:12px}.snippet .language-diff{font-size:77%}.snippet.additions{color:#336543}.snippet.deletions{color:#9a5256}.snippet .token.prefix.unchanged{visibility:hidden}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}span.code{margin:0 4px -3px}.token.coord{color:#d2a8ff;font-weight:700}.token.inserted:not(.prefix){color:#aad0b4dc;background-color:#336543dc}.token.deleted:not(.prefix){color:#eed2d0dc;background-color:#9a5256dc}.space{margin-left:7px}.blue{color:#58a6ff}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -20,7 +20,7 @@
                                 <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
                             </svg>
                             From
-                            <span class="blue space">Bubhux/Portfolio</span>
+                            <span class="blue space">Bubhux/GenealogieApp</span>
                         </div>
                     </section>
                     <section class="largeable-column-fields">
@@ -28,7 +28,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 12 May 2025, 07:47:36
+                            On 21 May 2025, 23:58:53
                         </div>
                     </section>
                 </div>
@@ -38,32 +38,92 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            Mise à jour V.8.5
-du Globe dans le formulaire de contact améliorations liés au ralentissement du globe
+                            Mise à jour V.1.1
+
+Insertion des données avec le fichier data.sql
+Création de la vue dashboard.blade.php
+Création de la vue index.blade.php
+Création du controller PersonController.php
+Création du controller ProfileController.php
+Ajout du système d'authentification Laravel Breeze
+ On branch development
  Changes to be committed:
-	modified:   app/components/globe/globe.jsx
-	modified:   app/components/globe/main.jsx
-	modified:   app/components/globe/marker.jsx
-	new file:   app/components/globe/textures/earth_atmos.jpg
-	new file:   app/components/globe/textures/earth_bump_roughness_clouds.jpg
-	new file:   app/components/globe/textures/earth_clouds.png
-	new file:   app/components/globe/textures/earth_day_2.jpg
-	new file:   app/components/globe/textures/earth_lights.png
-	new file:   app/components/globe/textures/earth_night_2.jpg
-	new file:   app/components/globe/textures/earth_normal.jpg
-	new file:   app/components/globe/textures/earth_specular.jpg
-	modified:   app/components/globe/utils/config.js
-	modified:   app/components/globe/utils/shaders.js
+	modified:   README.md
+	new file:   app/Http/Controllers/Auth/AuthenticatedSessionController.php
+	new file:   app/Http/Controllers/Auth/ConfirmablePasswordController.php
+	new file:   app/Http/Controllers/Auth/EmailVerificationNotificationController.php
+	new file:   app/Http/Controllers/Auth/EmailVerificationPromptController.php
+	new file:   app/Http/Controllers/Auth/NewPasswordController.php
+	new file:   app/Http/Controllers/Auth/PasswordController.php
+	new file:   app/Http/Controllers/Auth/PasswordResetLinkController.php
+	new file:   app/Http/Controllers/Auth/RegisteredUserController.php
+	new file:   app/Http/Controllers/Auth/VerifyEmailController.php
+	new file:   app/Http/Controllers/PersonController.php
+	new file:   app/Http/Controllers/ProfileController.php
+	new file:   app/Http/Requests/Auth/LoginRequest.php
+	new file:   app/Http/Requests/ProfileUpdateRequest.php
+	new file:   app/View/Components/AppLayout.php
+	new file:   app/View/Components/GuestLayout.php
+	modified:   composer.json
+	modified:   composer.lock
+	deleted:    database/import/data.sql
+	new file:   package-lock.json
+	modified:   package.json
+	new file:   postcss.config.js
+	modified:   resources/css/app.css
+	modified:   resources/js/app.js
+	new file:   resources/views/auth/confirm-password.blade.php
+	new file:   resources/views/auth/forgot-password.blade.php
+	new file:   resources/views/auth/login.blade.php
+	new file:   resources/views/auth/register.blade.php
+	new file:   resources/views/auth/reset-password.blade.php
+	new file:   resources/views/auth/verify-email.blade.php
+	new file:   resources/views/components/application-logo.blade.php
+	new file:   resources/views/components/auth-session-status.blade.php
+	new file:   resources/views/components/danger-button.blade.php
+	new file:   resources/views/components/dropdown-link.blade.php
+	new file:   resources/views/components/dropdown.blade.php
+	new file:   resources/views/components/input-error.blade.php
+	new file:   resources/views/components/input-label.blade.php
+	new file:   resources/views/components/modal.blade.php
+	new file:   resources/views/components/nav-link.blade.php
+	new file:   resources/views/components/primary-button.blade.php
+	new file:   resources/views/components/responsive-nav-link.blade.php
+	new file:   resources/views/components/secondary-button.blade.php
+	new file:   resources/views/components/text-input.blade.php
+	new file:   resources/views/dashboard.blade.php
+	new file:   resources/views/layouts/app.blade.php
+	new file:   resources/views/layouts/guest.blade.php
+	new file:   resources/views/layouts/navigation.blade.php
+	new file:   resources/views/people/index.blade.php
+	new file:   resources/views/profile/edit.blade.php
+	new file:   resources/views/profile/partials/delete-user-form.blade.php
+	new file:   resources/views/profile/partials/update-password-form.blade.php
+	new file:   resources/views/profile/partials/update-profile-information-form.blade.php
+	new file:   routes/auth.php
+	modified:   routes/web.php
+	new file:   tailwind.config.js
+	new file:   tests/Feature/Auth/AuthenticationTest.php
+	new file:   tests/Feature/Auth/EmailVerificationTest.php
+	new file:   tests/Feature/Auth/PasswordConfirmationTest.php
+	new file:   tests/Feature/Auth/PasswordResetTest.php
+	new file:   tests/Feature/Auth/PasswordUpdateTest.php
+	new file:   tests/Feature/Auth/RegistrationTest.php
+	modified:   tests/Feature/ExampleTest.php
+	new file:   tests/Feature/ProfileTest.php
+	new file:   tests/Pest.php
+	modified:   tests/Unit/ExampleTest.php
+	modified:   vite.config.js
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">5b0a448f</span>
-                            <span class="code">app/components/globe/main.jsx</span>
+                            <span class="code">1f8ddad6</span>
+                            <span class="code">resources/js/app.js</span>
                             <span class="code">
-                                <span class="snippet additions">++37</span>
-                                <span class="snippet deletions">--16</span>
+                                <span class="snippet additions">++6</span>
+                                <span class="snippet deletions">--0</span>
                             </span>
                         </div>
                     </section>
@@ -71,7 +131,7 @@ du Globe dans le formulaire de contact améliorations liés au ralentissement du
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -75,6 +75,8 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">           const displayFolder = gui.addFolder('Display');<br /></span><span class="token prefix unchanged">·</span><span class="token line">           controllers.push(displayFolder.add(config.display, 'map'));<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">           controllers.push(displayFolder.add(config.display, 'lines'));<br /></span><span class="token prefix inserted">+</span><span class="token line">           controllers.push(displayFolder.add(config.display, 'lineDots'));<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">           controllers.push(displayFolder.add(config.display, 'points'));<br /></span><span class="token prefix unchanged">·</span><span class="token line">           controllers.push(displayFolder.add(config.display, 'markers'));<br /></span><span class="token prefix unchanged">·</span><span class="token line">           controllers.push(displayFolder.add(config.display, 'markerLabel'));<br /></span></span>@@ -85,14 +87,14 @@ const Main = () =&gt; {<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">           controllers.push(animationsFolder.add(animations, 'rotateGlobe'));<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">           sizeFolder.open();<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">       });<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">       }); */}<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">       controllers.forEach(controller =&gt; {<br /></span><span class="token prefix unchanged">·</span><span class="token line">           controller.onChange(() =&gt; {<br /></span><span class="token prefix unchanged">·</span><span class="token line">               setControls(prevControls =&gt; ({ ...prevControls, changed: true }));<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">           });<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">       }); */}<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">       });<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">       app.camera.position.z = config.sizes.globe * 2.85;<br /></span><span class="token prefix unchanged">·</span><span class="token line">       app.camera.position.y = config.sizes.globe * 0;<br /></span></span>@@ -142,17 +144,27 @@ const Main = () =&gt; {<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">   const animate = (app) =&gt; {<br /></span><span class="token prefix unchanged">·</span><span class="token line">       if (controls.changed) {<br /></span><span class="token prefix unchanged">·</span><span class="token line">           const updateMaterial = (element, property, value) =&gt; {<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">               if (element) {<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">               if (element &amp;&amp; element.material) {<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">                   element.material[property] = value;<br /></span><span class="token prefix unchanged">·</span><span class="token line">               }<br /></span><span class="token prefix unchanged">·</span><span class="token line">           };<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">           const updateVisibility = (elements, visible) =&gt; {<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">               elements.forEach(element =&gt; {<br /></span><span class="token prefix deleted">-</span><span class="token line">                   if (element) element.visible = visible;<br /></span><span class="token prefix deleted">-</span><span class="token line">               });<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">               if (elements) {<br /></span><span class="token prefix inserted">+</span><span class="token line">                   elements.forEach(element =&gt; {<br /></span><span class="token prefix inserted">+</span><span class="token line">                       if (element) element.visible = visible;<br /></span><span class="token prefix inserted">+</span><span class="token line">                   });<br /></span><span class="token prefix inserted">+</span><span class="token line">               }<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">           };<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">           if (groups.lines) {<br /></span><span class="token prefix inserted">+</span><span class="token line">               groups.lines.visible = config.display.lines;<br /></span><span class="token prefix inserted">+</span><span class="token line">           }<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">           if (elements.lineDots &amp;&amp; groups.lineDots) {<br /></span><span class="token prefix inserted">+</span><span class="token line">               groups.lineDots.visible = config.display.lineDots;<br /></span><span class="token prefix inserted">+</span><span class="token line">           }<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">           if (elements.atmosphere) {<br /></span><span class="token prefix unchanged">·</span><span class="token line">               elements.atmosphere.visible = config.display.atmosphere;<br /></span><span class="token prefix unchanged">·</span><span class="token line">           }<br /></span></span>@@ -170,7 +182,9 @@ const Main = () =&gt; {<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">           if (elements.lines) {<br /></span><span class="token prefix unchanged">·</span><span class="token line">               elements.lines.forEach(line =&gt; {<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">                   line.material.color.set(config.colors.globeLines);<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">                   if (line &amp;&amp; line.material) {<br /></span><span class="token prefix inserted">+</span><span class="token line">                       line.material.color.set(config.colors.globeLines);<br /></span><span class="token prefix inserted">+</span><span class="token line">                   }<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">               });<br /></span><span class="token prefix unchanged">·</span><span class="token line">           }<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span>@@ -179,8 +193,13 @@ const Main = () =&gt; {<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">               if (group) group.visible = config.display[configKeys[index]];<br /></span><span class="token prefix unchanged">·</span><span class="token line">           });<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">           updateVisibility(elements.markerLabel, config.display.markerLabel);<br /></span><span class="token prefix deleted">-</span><span class="token line">           updateVisibility(elements.markerPoint, config.display.markerPoint);<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">           if (elements.markerLabel) {<br /></span><span class="token prefix inserted">+</span><span class="token line">               updateVisibility(elements.markerLabel, config.display.markerLabel);<br /></span><span class="token prefix inserted">+</span><span class="token line">           }<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">           if (elements.markerPoint) {<br /></span><span class="token prefix inserted">+</span><span class="token line">               updateVisibility(elements.markerPoint, config.display.markerPoint);<br /></span><span class="token prefix inserted">+</span><span class="token line">           }<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">           setControls(prevControls =&gt; ({ ...prevControls, changed: false }));<br /></span><span class="token prefix unchanged">·</span><span class="token line">       }<br /></span></span>@@ -214,11 +233,11 @@ const Main = () =&gt; {<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">       if (!groups.globe) {<br /></span><span class="token prefix unchanged">·</span><span class="token line">           console.error("groups.globe is not initialized.");<br /></span><span class="token prefix unchanged">·</span><span class="token line">       } else {<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">           groups.globe.add(groups.atmosphere || new THREE.Group());<br /></span><span class="token prefix deleted">-</span><span class="token line">           groups.globe.add(groups.lines || new THREE.Group());<br /></span><span class="token prefix deleted">-</span><span class="token line">           groups.globe.add(groups.markers || new THREE.Group());<br /></span><span class="token prefix deleted">-</span><span class="token line">           groups.globe.add(groups.points || new THREE.Group());<br /></span><span class="token prefix deleted">-</span><span class="token line">           groups.globe.add(groups.map || new THREE.Group());<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">           if (groups.atmosphere) groups.globe.add(groups.atmosphere);<br /></span><span class="token prefix inserted">+</span><span class="token line">           if (groups.lines) groups.globe.add(groups.lines);<br /></span><span class="token prefix inserted">+</span><span class="token line">           if (groups.markers) groups.globe.add(groups.markers);<br /></span><span class="token prefix inserted">+</span><span class="token line">           if (groups.points) groups.globe.add(groups.points);<br /></span><span class="token prefix inserted">+</span><span class="token line">           if (groups.map) groups.globe.add(groups.map);<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">           if (!app.renderer) {<br /></span><span class="token prefix unchanged">·</span><span class="token line">               console.error("Renderer is not initialized.");<br /></span></span>@@ -229,7 +248,9 @@ const Main = () =&gt; {<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">           groups.globe.rotation.y -= 0.0025;<br /></span><span class="token prefix unchanged">·</span><span class="token line">       }<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">       app.renderer.render(app.scene, app.camera);<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">       if (app.renderer) {<br /></span><span class="token prefix inserted">+</span><span class="token line">           app.renderer.render(app.scene, app.camera);<br /></span><span class="token prefix inserted">+</span><span class="token line">       }<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">   };<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">   useEffect(() =&gt; {<br /></span></span>@@ -270,4 +291,4 @@ const Main = () =&gt; {<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">   );<br /></span><span class="token prefix unchanged">·</span><span class="token line">};<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">export default Main;<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">export default Main;<br /></span></span>\No newline at end of file</code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1 +1,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">import './bootstrap';<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">import Alpine from 'alpinejs';<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">window.Alpine = Alpine;<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">Alpine.start();</span></span></code>
                         </div>
                     </section>
                 </div>
