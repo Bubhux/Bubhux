@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="433" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="446" class="">
     <defs>
         <style/>
     </defs>
@@ -28,7 +28,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 4 Jun 2025, 08:34:32
+                            On 19 Jun 2025, 20:39:32
                         </div>
                     </section>
                 </div>
@@ -38,19 +38,19 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            Mise à jour V.2.2
+                            Mise à jour V.2.3
  Changes to be committed:
-	modified:   StudentManager/urls.py
+	modified:   home/views.py
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">545311ee</span>
-                            <span class="code">StudentManager/urls.py</span>
+                            <span class="code">726eed7a</span>
+                            <span class="code">home/views.py</span>
                             <span class="code">
                                 <span class="snippet additions">++4</span>
-                                <span class="snippet deletions">--1</span>
+                                <span class="snippet deletions">--4</span>
                             </span>
                         </div>
                     </section>
@@ -58,7 +58,7 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -16,6 +16,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"""<br /></span><span class="token prefix unchanged">·</span><span class="token line">from django.contrib import admin<br /></span><span class="token prefix unchanged">·</span><span class="token line">from django.urls import path<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">from django.views.generic import RedirectView<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">from home.views import home_view, student_management_view, classroom_management_view, quit_application_view<br /></span><span class="token prefix unchanged">·</span><span class="token line">from classroom.views import (<br /></span><span class="token prefix unchanged">·</span><span class="token line">classroom_home_view, display_classrooms_view, add_classroom_view,<br /></span></span><span class="token coord">@@ -26,8 +27,10 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">urlpatterns = [<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">path('', RedirectView.as_view(url='/home/')),<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">path('admin/', admin.site.urls),<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">path('', home_view, name='home'),<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">path('home/', home_view, name='home'),<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">path('student-management/', student_management_view, name='student_management'),<br /></span><span class="token prefix unchanged">·</span><span class="token line">path('classroom-management/', classroom_management_view, name='classroom_management'),<br /></span><span class="token prefix unchanged">·</span><span class="token line">path('quit/', quit_application_view, name='quit_application'),</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,15 +1,15 @@</span><br /><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">from django.shortcuts import render<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"># home/views.py<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">from django.shortcuts import render, redirect<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">def home_view(request):<br /></span><span class="token prefix unchanged">·</span><span class="token line">  return render(request, 'home/home.html')<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">def student_management_view(request):<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">  return redirect('/student/')  # Redirige vers l'application student<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">  return render(request, '/student/')  # Redirige vers l'application student<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">def classroom_management_view(request):<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">  return redirect('/classroom/')  # Redirige vers l'application classroom<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">  return render(request, '/classroom/')  # Redirige vers l'application classroom<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">def quit_application_view(request):<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">  return redirect('/')  # Vous pouvez modifier cette redirection selon le besoin<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">  return render(request, '/home/')</span></span></code>
                         </div>
                     </section>
                 </div>
