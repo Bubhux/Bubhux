@@ -25,7 +25,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="41.230000000000004 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="41.74666666666666 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -47,10 +47,10 @@
                                     <span class="prefix">Master</span>
                                     deployer
                                     <div class="value-wrapper">
-                                        <div class="value">1399</div>
+                                        <div class="value">1404</div>
                                     </div>
                                 </div>
-                                <div class="text">Repositories have been deployed 1399 times</div>
+                                <div class="text">Repositories have been deployed 1404 times</div>
                             </div>
                         </div>
                         <div class="achievement a largeable-width-half">
@@ -142,7 +142,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="131.75 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="134.33333333333334 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g fill="none" fill-rule="evenodd">
@@ -160,10 +160,10 @@
                                     <span class="prefix">Great</span>
                                     follower
                                     <div class="value-wrapper">
-                                        <div class="value">455</div>
+                                        <div class="value">460</div>
                                     </div>
                                 </div>
-                                <div class="text">Following 455 users</div>
+                                <div class="text">Following 460 users</div>
                             </div>
                         </div>
                         <div class="achievement b largeable-width-half">
@@ -211,7 +211,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="58.38333333333333 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="58.9 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" stroke-width="2" fill="none" fill-rule="evenodd">
@@ -248,12 +248,12 @@
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     influencer
-                                    <span class="gh">ranked 35.3k out of 172m users</span>
+                                    <span class="gh">ranked 35.2k out of 172m users</span>
                                     <div class="value-wrapper">
-                                        <div class="value">313</div>
+                                        <div class="value">314</div>
                                     </div>
                                 </div>
-                                <div class="text">Followed by 313 users</div>
+                                <div class="text">Followed by 314 users</div>
                             </div>
                         </div>
                         <div class="achievement b largeable-width-half">
@@ -309,41 +309,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="0 155"/>
-                                    </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
-                                        <g stroke-width="2" fill="none" fill-rule="evenodd">
-                                            <path d="M29 16V8.867C29 7.705 29.627 7 30.692 7h18.616C50.373 7 51 7.705 51 8.867v38.266C51 48.295 50.373 49 49.308 49H30.692C29.627 49 29 48.295 29 47.133V39m-4-23V9c0-1.253-.737-2-2-2H7c-1.263 0-2 .747-2 2v34c0 1.253.737 2 2 2h16c1.263 0 2-.747 2-2v-4" stroke="#B2A8FF" stroke-linecap="round"/>
-                                            <path stroke="#B2A8FF" d="M51.557 12.005h-22M5 12.005h21"/>
-                                            <path d="M14 33V22c0-1.246.649-2 1.73-2h28.54c1.081 0 1.73.754 1.73 2v11c0 1.246-.649 2-1.73 2H15.73c-1.081 0-1.73-.754-1.73-2z" stroke="#7D6CFF" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M19 29v-3c0-.508.492-1 1-1h3c.508 0 1 .492 1 1v3c0 .508-.492 1-1 1h-3c-.508-.082-1-.492-1-1z" stroke="#7D6CFF"/>
-                                            <path stroke="#7D6CFF" stroke-linecap="round" stroke-linejoin="round" d="M28.996 27.998h12M9.065 20.04a7.062 7.062 0 00-.023 1.728m.775 2.517c.264.495.584.954.954 1.369"/>
-                                        </g>
-                                    </svg>
-                                </svg>
-                            </div>
-                            <div class="info">
-                                <div class="title">
-                                    <span class="prefix">Great</span>
-                                    manager
-                                    <div class="value-wrapper">
-                                        <div class="value">2</div>
-                                    </div>
-                                </div>
-                                <div class="text">Created 2 user projects</div>
-                            </div>
-                        </div>
-                        <div class="achievement b largeable-width-half">
-                            <div class="icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
-                                    <defs>
-                                        <mask id="mask">
-                                            <circle class="gauge-base" r="25" cx="28" cy="28" fill="white"/>
-                                        </mask>
-                                    </defs>
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
-                                        <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="0 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="0.21218343600273526 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -370,6 +336,40 @@
                                     </div>
                                 </div>
                                 <div class="text">Registered 3 years ago</div>
+                            </div>
+                        </div>
+                        <div class="achievement b largeable-width-half">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" fill="white"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
+                                        <circle class="gauge-base" r="25" cx="28" cy="28"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="0 155"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g stroke-width="2" fill="none" fill-rule="evenodd">
+                                            <path d="M29 16V8.867C29 7.705 29.627 7 30.692 7h18.616C50.373 7 51 7.705 51 8.867v38.266C51 48.295 50.373 49 49.308 49H30.692C29.627 49 29 48.295 29 47.133V39m-4-23V9c0-1.253-.737-2-2-2H7c-1.263 0-2 .747-2 2v34c0 1.253.737 2 2 2h16c1.263 0 2-.747 2-2v-4" stroke="#B2A8FF" stroke-linecap="round"/>
+                                            <path stroke="#B2A8FF" d="M51.557 12.005h-22M5 12.005h21"/>
+                                            <path d="M14 33V22c0-1.246.649-2 1.73-2h28.54c1.081 0 1.73.754 1.73 2v11c0 1.246-.649 2-1.73 2H15.73c-1.081 0-1.73-.754-1.73-2z" stroke="#7D6CFF" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M19 29v-3c0-.508.492-1 1-1h3c.508 0 1 .492 1 1v3c0 .508-.492 1-1 1h-3c-.508-.082-1-.492-1-1z" stroke="#7D6CFF"/>
+                                            <path stroke="#7D6CFF" stroke-linecap="round" stroke-linejoin="round" d="M28.996 27.998h12M9.065 20.04a7.062 7.062 0 00-.023 1.728m.775 2.517c.264.495.584.954.954 1.369"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    <span class="prefix">Great</span>
+                                    manager
+                                    <div class="value-wrapper">
+                                        <div class="value">2</div>
+                                    </div>
+                                </div>
+                                <div class="text">Created 2 user projects</div>
                             </div>
                         </div>
                         <div class="achievement c largeable-width-half">
