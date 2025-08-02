@@ -2,7 +2,7 @@
 
 #### Check out my portfolio !
 
-- **Portfolio** ➔ 💼 [Discover my portfolio, click here !](https://portfolio-8ym.pages.dev/)
+- **Portfolio** ➔ 💼 [Discover my portfolio, click here !](https://2eeb9101.portfolio-8ym.pages.dev/)
 
 #### Languages   
 <p align="left">
