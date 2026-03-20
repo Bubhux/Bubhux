@@ -131,7 +131,7 @@ jobs:
           plugin_habits_from: 200
           plugin_habits_days: 30
           plugin_habits_trim: yes
-          commits_authoring: Bubhux
+          plugin_habits_languages_limit: 0
           config_timezone: Europe/Paris
 
       - name: Featured star list
