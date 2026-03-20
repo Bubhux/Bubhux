@@ -127,12 +127,16 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
-          plugin_habits_charts_type: graph
-          plugin_habits_from: 200
-          plugin_habits_days: 30
-          plugin_habits_trim: yes
-          plugin_habits_languages_limit: 0
           config_timezone: Europe/Paris
+
+      - name: Recent stars
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.stars.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_stars: yes
+          plugin_stars_limit: 4
 
       - name: Featured star list
         uses: lowlighter/metrics@latest
