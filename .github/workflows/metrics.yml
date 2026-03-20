@@ -19,7 +19,7 @@ jobs:
       packages: read
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Create dist directory
         run: mkdir -p dist
@@ -127,7 +127,6 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
-          plugin_habits_charts_type: graph
           plugin_habits_from: 100
           plugin_habits_days: 7
           config_timezone: Europe/Paris
