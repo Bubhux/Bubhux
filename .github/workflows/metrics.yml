@@ -127,8 +127,9 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
-          plugin_habits_from: 100
-          plugin_habits_days: 7
+          plugin_habits_from: 200
+          plugin_habits_days: 30
+          plugin_habits_trim: yes
           config_timezone: Europe/Paris
 
       - name: Featured star list
