@@ -124,7 +124,6 @@ jobs:
           filename: metrics.plugin.habits.charts.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          debug: yes
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
@@ -132,6 +131,7 @@ jobs:
           plugin_habits_from: 200
           plugin_habits_days: 30
           plugin_habits_trim: yes
+          plugin_habits_ignored_users: github-actions[bot],dependabot[bot],actions-user
           config_timezone: Europe/Paris
 
       - name: Featured star list
