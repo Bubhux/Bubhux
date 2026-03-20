@@ -131,7 +131,7 @@ jobs:
           plugin_habits_from: 200
           plugin_habits_days: 30
           plugin_habits_trim: yes
-          plugin_habits_ignored_users: github-actions[bot],dependabot[bot],actions-user
+          commits_authoring: Bubhux
           config_timezone: Europe/Paris
 
       - name: Featured star list
