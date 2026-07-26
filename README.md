@@ -37,8 +37,6 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Bubhux/Bubhux/output/pacman-contribution-graph.svg">
 </picture>
 
-*généré avec [abozanona/pacman-contribution-graph](https://abozanona.github.io/pacman-contribution-graph/)*
-
 <!--
 **Bubhux/Bubhux** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
